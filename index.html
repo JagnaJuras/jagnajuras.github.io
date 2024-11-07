@@ -1,91 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Zadanie 4</title>
-<style>
-body {background-color: powderblue;}
-*	{text-align: center}
-a	{color: red; font-family: "Comic Sans Ms"}
-h1   {color: green; font-family: "Comic Sans Ms"}
-h2	{color: green; font-family: "Comic Sans Ms"}
-h3	{color: green; font-family: "Comic Sans Ms"}
-p    {color: blue; font-family: "Comic Sans Ms"}
-table, td, th	{color: magenta; font-family: "Comic Sans Ms"; border: 1px solid}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-img:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s;
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Western Movies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-<h1>Nagłówek 1</h1>
-<p>Paragraf</p>
-<h2>Nagłówek 2</h2>
-<p>Paragraf
-<br>Nowa linia
-<br>Nowa linia
-</p>
-<h3>Linki</h3>
-<a href="http://www.root-servers.com">Link 1</a>
-<br><a href="https://www.root-servers.org">Link 2</a>
-
-<br>
-<h2>Tabela</h2>
-
-<table align="center">
-	<tr>
-		<th>Kolumna 1</th>
-		<th>Kolumna 2</th>
-		<th>Kolumna 3</th>
-	</tr>
-	<tr>
-		<td>tekst</td>
-		<td>tekst</td>
-		<td>tekst</td>
-	</tr>
-	<tr>
-		<td>tekst</td>
-		<td>tekst</td>
-		<td>tekst</td>
-	</tr>
-	<tr>
-		<td>tekst</td>
-		<td>tekst</td>
-		<td>tekst</td>
-	</tr>
-
+<h1>My Favorite Western Movies</h1>
+<div>Here is a list of my favorite westerns!</div>
+<table>
+    <tr>
+        <th>Image</th>
+        <th>Movie Title</th>
+        <th>Director</th>
+        <th>Release Date</th>
+    </tr>
+    <tr>
+        <td><a href="images/A Fistful of Dollars.jpg" target="_blank"><img src="images/A Fistful of Dollars.jpg" alt="A Fistful of Dollars" class="movie-image"></a></td>
+        <td>A Fistful of Dollars</td>
+        <td>Sergio Leone</td>
+        <td>1964</td>
+    </tr>
+    <tr>
+        <td><a href="images/For a Few Dollars More.jpg" target="_blank"><img src="images/For a Few Dollars More.jpg" alt="For a Few Dollars More" class="movie-image"></a></td>
+        <td>For a Few Dollars More</td>
+        <td>Sergio Leone</td>
+        <td>1965</td>
+    </tr>
+    <tr>
+        <td><a href="images/The Good the Bad and the Ugly.jpg" target="_blank"><img src="images/The Good the Bad and the Ugly.jpg" alt="The Good, the Bad and the Ugly" class="movie-image"></a></td>
+        <td>The Good, the Bad and the Ugly</td>
+        <td>Sergio Leone</td>
+        <td>1966</td>
+    </tr>
+    <tr>
+        <td><a href="images/High Plains Drifter.jpg" target="_blank"><img src="images/High Plains Drifter.jpg" alt="High Plains Drifter" class="movie-image"></a></td>
+        <td>High Plains Drifter</td>
+        <td>Clint Eastwood</td>
+        <td>1973</td>
+    </tr>
+    <tr>
+        <td><a href="images/Two Mules for Sister Sara.jpg" target="_blank"><img src="images/Two Mules for Sister Sara.jpg" alt="Two Mules for Sister Sara" class="movie-image"></a></td>
+        <td>Two Mules for Sister Sara</td>
+        <td>Don Siegel</td>
+        <td>1970</td>
+    </tr>
+    <tr>
+        <td><a href="images/Pale Rider.jpg" target="_blank"><img src="images/Pale Rider.jpg" alt="Pale Rider" class="movie-image"></a></td>
+        <td>Pale Rider</td>
+        <td>Clint Eastwood</td>
+        <td>1985</td>
+    </tr>
+    <tr>
+        <td><a href="images/My Name is Nobody.jpg" target="_blank"><img src="images/My Name is Nobody.jpg" alt="My Name is Nobody" class="movie-image"></a></td>
+        <td>My Name is Nobody</td>
+        <td>Tonino Valerii</td>
+        <td>1973</td>
+    </tr>
+    <tr>
+        <td><a href="images/They Call Me Trinity.jpg" target="_blank"><img src="images/They Call Me Trinity.jpg" alt="They Call Me Trinity" class="movie-image"></a></td>
+        <td>They Call Me Trinity</td>
+        <td>Enzo Barboni</td>
+        <td>1970</td>
+    </tr>
+    <tr>
+        <td><a href="images/Once Upon a Time in the West.jpg" target="_blank"><img src="images/Once Upon a Time in the West.jpg" alt="Once Upon a Time in the West" class="movie-image"></a></td>
+        <td>Once Upon a Time in the West</td>
+        <td>Sergio Leone</td>
+        <td>1968</td>
+    </tr>
+    <tr>
+        <td><a href="images/Death Rides a Horse.jpg" target="_blank"><img src="images/Death Rides a Horse.jpg" alt="Death Rides a Horse" class="movie-image"></a></td>
+        <td>Death Rides a Horse</td>
+        <td>Giulio Petroni</td>
+        <td>1967</td>
+    </tr>
+    <tr>
+        <td><a href="images/The Big Gundown.jpg" target="_blank"><img src="images/The Big Gundown.jpg" alt="The Big Gundown" class="movie-image"></a></td>
+        <td>The Big Gundown</td>
+        <td>Sergio Sollima</td>
+        <td>1966</td>
+    </tr>
+    <tr>
+        <td><a href="images/The Grand Duel.jpg" target="_blank"><img src="images/The Grand Duel.jpg" alt="The Grand Duel" class="movie-image"></a></td>
+        <td>The Grand Duel</td>
+        <td>Giancarlo Santi</td>
+        <td>1972</td>
+    </tr>
+    <tr>
+        <td><a href="images/Day of Anger.jpg" target="_blank"><img src="images/Day of Anger.jpg" alt="Day of Anger" class="movie-image"></a></td>
+        <td>Day of Anger</td>
+        <td>Tonino Valerii</td>
+        <td>1967</td>
+    </tr>
+    <tr>
+        <td><a href="images/Sabata.jpg" target="_blank"><img src="images/Sabata.jpg" alt="Sabata" class="movie-image"></a></td>
+        <td>Sabata</td>
+        <td>Gianfranco Parolini</td>
+        <td>1969</td>
+    </tr>
+    <tr>
+        <td><a href="images/Silverado.jpg" target="_blank"><img src="images/Silverado.jpg" alt="Silverado" class="movie-image"></a></td>
+        <td>Silverado</td>
+        <td>Lawrence Kasdan</td>
+        <td>1985</td>
+    </tr>
+    <tr>
+        <td><a href="images/A Bullet for the General.jpg" target="_blank"><img src="images/A Bullet for the General.jpg" alt="A Bullet for the General" class="movie-image"></a></td>
+        <td>A Bullet for the General</td>
+        <td>Damiano Damiani</td>
+        <td>1966</td>
+    </tr>
+    <tr>
+        <td><a href="images/Duel in the Sun.jpg" target="_blank"><img src="images/Duel in the Sun.jpg" alt="Duel in the Sun" class="movie-image"></a></td>
+        <td>Duel in the Sun</td>
+        <td>King Vidor, William Dieterle</td>
+        <td>1946</td>
+    </tr>
+    <tr>
+        <td><a href="images/The Mercenary.jpg" target="_blank"><img src="images/The Mercenary.jpg" alt="The Mercenary" class="movie-image"></a></td>
+        <td>The Mercenary</td>
+        <td>Sergio Corbucci</td>
+        <td>1968</td>
+    </tr>
+    <tr>
+        <td><a href="images/Django.jpg" target="_blank"><img src="images/Django.jpg" alt="Django" class="movie-image"></a></td>
+        <td>Django</td>
+        <td>Sergio Corbucci</td>
+        <td>1966</td>
+    </tr>
+    <tr>
+        <td><a href="images/Face to Face.jpg" target="_blank"><img src="images/Face to Face.jpg" alt="Face to Face" class="movie-image"></a></td>
+        <td>Face to Face</td>
+        <td>Sergio Sollima</td>
+        <td>1967</td>
+    </tr>
 </table>
-<br>
-
- <img src="kot.gif" alt="Kotek"> 
-		
-
-
-
+<footer>Jagna Juras @2024</footer>
 </body>
 </html>
